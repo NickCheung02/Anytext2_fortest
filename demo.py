@@ -236,10 +236,10 @@ block = gr.Blocks(css='style.css', theme=gr.themes.Soft()).queue()
 
 with block:
     gr.HTML('<div style="text-align: center; margin: 20px auto;"> \
-            <img id="banner" src="file/example_images/banner2.png" alt="anytext"> <br>  \
+            <img id="banner" src="https://modelscope.cn/api/v1/studio/iic/studio_anytext2/repo?Revision=master&FilePath=example_images%2Fbanner2.jpg&View=true" style="max-width:400px; width:100%; margin:auto; display:block;" alt="anytext2"> <br>  \
             [<a href="https://arxiv.org/abs/2411.15245" style="color:blue; font-size:18px;">arXiv</a>] \
             [<a href="https://github.com/tyxsspa/AnyText2" style="color:blue; font-size:18px;">Code</a>] \
-            [<a href="https://modelscope.cn/models/damo/cv_anytext_text_generation_editing/summary" style="color:blue; font-size:18px;">ModelScope</a>]\
+            [<a href="https://modelscope.cn/studios/iic/studio_anytext2" style="color:blue; font-size:18px;">ModelScope</a>]\
             version: 1.0.0 </div>')
     with gr.Row(variant='compact'):
         with gr.Column(scale=3) as left_part:
